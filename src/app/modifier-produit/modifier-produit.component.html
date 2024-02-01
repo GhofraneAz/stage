@@ -1,0 +1,22 @@
+<h3>Modifier Des Produits</h3>
+<div *ngIf="message"  class="alert alert-success alert-dismissible fade show" role="alert">
+    <strong>success!</strong> Product Updated
+    <button (click)="removeMessage()" type="button"  data-bs-dismiss="alert" aria-label="Close">X</button>
+  </div>
+<form [formGroup]="editProduit" (ngSubmit)="UpdateData()">
+    <div class="mb-3">
+      <label  class="form-label">Nom</label>
+      <input type="text" class="form-control" placeholder="Entrez le nom" formControlName="nom">
+     </div>
+     <div class="mb-3">
+        <label  class="form-label">Prix</label>
+        <input type="number" class="form-control" placeholder="Entrez le prix" formControlName="prix">
+       </div>
+       <div class="mb-3">
+        <label  class="form-label">Image</label>
+        <input type="text" class="form-control" placeholder="Entrez l'url de l'image" formControlName="image">
+       </div>
+      
+    <button type="submit" class="btn btn-primary g">Modifier</button>
+  </form>
+

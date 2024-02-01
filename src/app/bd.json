@@ -1,0 +1,40 @@
+{
+  "produits": [
+    {
+      "id": "a035",
+      "nom": "Papulex",
+      "prix": 49,
+      "image": "https://pharma-shop.tn/21163-large_default/papulex-gel-nettoyant-moussant-150ml.jpg"
+    },
+    {
+      "id": "80fa",
+      "nom": "Clarenia",
+      "prix": 41,
+      "image": "https://pharma-shop.tn/14911-large_default/clarenia-gel-nettoyant-eclaircissant-double-action-pmg-150-ml.jpg"
+    },
+    {
+      "id": "1ca5",
+      "nom": "Huile de tea tree",
+      "prix": 50,
+      "image": "https://www.parashop.tn/image/cache/catalog/produits/almaflore/almaflore-huile-essentielle-de-tea-tree-bio-10ml-620x620.jpg.webp"
+    },
+    {
+      "id": "072d",
+      "nom": "Creme visage anti-acne",
+      "prix": 70,
+      "image": "https://panda.tn/2390-medium_default/dermaflore-creme-anti-acne-dermaflore.jpg"
+    },
+    {
+      "nom": "Filorga",
+      "prix": 84,
+      "image": "https://www.parashop.tn/image/cache/catalog/produits/filorga/filorga-hydra-hyal-serum-hydratant-repulpant-30ml-620x620.jpg.webp",
+      "id": "cbc0"
+    },
+    {
+      "id": "b3c7",
+      "nom": "Zynia",
+      "prix": 60,
+      "image": "https://www.coquette.tn/5414/bronzants-zynia-huile-bronzante-scintillante-spf-30-100ml-zynia.jpg"
+    }
+  ]
+}

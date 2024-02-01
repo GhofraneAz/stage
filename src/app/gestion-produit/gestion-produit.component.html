@@ -1,0 +1,28 @@
+<h3>Gestion Des Produits</h3>
+<br>
+<br>
+<table class="table" >
+  <thead>
+    <tr>
+      <th scope="col">Image</th>
+      <th scope="col">Nom</th>
+      <th scope="col">Prix</th>
+      <th scope="col">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of produitData">
+      <td><img [src]="item.image" width="150px"></td>
+      <td>{{item.nom}}</td>
+      <td>{{item.prix}}</td>
+      <td>
+        <button class="btn btn-danger mx-2 " type="button" (click)="deleteProduit(item.id)">
+          Supprimer
+        </button>
+        <a routerLink="/modifierproduit/{{item.id}}" class="btn btn-warning">
+          <i class="fas fa-edit " ></i> Modifier
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
